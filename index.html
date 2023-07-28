@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+header{
+display: flex;
+justify-content: space-around;
+background-color: deepskyblue;
+align-items: center;
+
+}
+footer{
+    display: flex;
+justify-content: space-around;
+background-color: deepskyblue;
+align-items: center;
+}
+nav{
+display: flex;
+align-items: center;
+}
+a{
+text-decoration: none;
+color: white;
+margin-right: 20px;
+}
+.papa{
+display: flex;
+align-items: center;
+border: 2px solid black;
+box-shadow: 0 0 5px 5px gray;
+margin-top: 20px;
+}
+body{
+margin: 0;
+}
+.ded{
+    border: 2px solid black;
+box-shadow: 0 0 5px 5px gray;
+
+}
+.babka{
+    border: 2px solid black;
+    text-align: center;
+}
+.zut{
+margin-right: 20px;
+display: flex;
+}
+.protect{
+align-items: center;
+}
+.ikonka{
+align-items: end;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+<div class="mama">
+<img src="https://avatars.mds.yandex.net/i?id=b52c29efbc0bce75499bf2fe03899005-7042747-images-thumbs&n=13" alt="" width="50" height="50">
+</div>
+ 
+    <nav>
+<a href="#">main menu</a>
+<a href="#">send letter</a>
+<a href="#">my letter</a>
+    </nav>
+
+<div class="serch">
+   <img src="https://cdn-icons-png.flaticon.com/512/751/751463.png" alt="" width="30" height="30"> 
+   <input type="text">
+</div>
+    </header>
+<main>
+<div class="papa">
+<div class="img">
+<img src="data:image/jpeg;base64,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" alt="">
+
+</div>
+<div class="text">
+<p>компания boxmove предостовляет качественные услуги
+    от на качество , от вас счастье</p>
+</div>
+</div>
+<div class="container p-5 my-5 border ded">
+<div class="container mt-3">
+    <h2>Stacked form</h2>
+    <form action="/action_page.php">
+      <div class="mb-3 mt-3">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+      <div class="mb-3">
+        <label for="pwd">Password:</label>
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+      </div>
+      <div class="form-check mb-3">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" name="remember"> Remember me
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>
+<div class="babka">
+<h1>reviews</h1>
+<p>ольга:</p>
+<p>быстрая доставка, очень довольна</p>
+<br>
+
+<p>григорий:</p>
+<p>успели за час, одобряю</p>
+</div>
+
+</main>
+<footer>
+    <div class="zut">
+        <img src="https://avatars.mds.yandex.net/i?id=b52c29efbc0bce75499bf2fe03899005-7042747-images-thumbs&n=13" alt="" width="50" height="50">
+        <p>address</p>
+        </div>
+
+
+        
+<div class="protect">
+<p>all right reserved</p>
+</div>
+<div class="ikonka">
+<img src="https://cdn-icons-png.flaticon.com/256/733/733635.png" alt="" width="50" height="50">
+<img src="https://icons.iconarchive.com/icons/ionic/ionicons/256/logo-facebook-icon.png" alt="" width="50" height="50">
+</div>
+
+
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
